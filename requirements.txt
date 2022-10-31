@@ -1,0 +1,13 @@
+jupyter==1.0.0
+autogluon==0.3.1
+pandas==1.1.5
+pysr==0.7.0
+pytorch-tabnet==3.1.1
+torch==1.9.0
+gplearn==0.4.1
+numpy==1.21.6
+einops==0.4.1
+pymatgen==2022.0.17
+matplotlib==3.3.4
+scikit-learn==0.24.1
+

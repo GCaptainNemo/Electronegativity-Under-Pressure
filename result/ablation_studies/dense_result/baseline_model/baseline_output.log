@@ -1,0 +1,8 @@
+2022-08-28 14:03:19,000 - INFO      - main.py  : 44 line - ====================================================
+2022-08-28 14:03:19,000 - INFO      - main.py  : 45 line - Start Training Baseline
+2022-08-28 14:03:19,000 - INFO      - main.py  : 46 line - ====================================================
+2022-08-28 14:03:19,000 - INFO      - main.py  : 47 line - Training Info: lr = 19, network_step = 15, epoch = 750
+2022-08-28 14:03:19,000 - INFO      - main.py  : 51 line - train criterion: HuberLoss(1.0), test criterion: MSE
+2022-08-28 14:03:58,186 - INFO      - main.py  : 94 line - baseline full_df_loss(MSE) = 0.009840002283453941
+2022-08-28 14:03:58,186 - INFO      - main.py  : 97 line - baseline test_df_loss(MSE) = 0.023806408047676086
+2022-08-28 14:03:58,193 - INFO      - main.py  : 102 line - save ensemble_baseline.pth successfully!!!

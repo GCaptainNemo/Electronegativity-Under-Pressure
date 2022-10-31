@@ -1,0 +1,11 @@
+.idea/
+__pycache__
+src/predict/.ipynb_checkpoints/
+src/settings/frontend_result/pre_processing/pre_processing.log
+docs/.ipynb_checkpoints/
+docs/AutogluonModels/
+src/find_formula/*.csv
+src/settings/frontend_result/pre_processing/pre_processing.log
+baseline_model	
+result/comparision_result/.ipynb_checkpoints/
+src/neural_net/training_result/pre_processing/pre_processing.log

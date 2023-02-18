@@ -80,7 +80,7 @@ e.  acquire empirical formulas
 cd src/find_formula
 python find_formula.py
 ```
-### 3.1 Docker 
+### 3.1 Docker Support
 To further facilitate the building process, we add docker in our code. To run with docker, first make sure [docker](https://docs.docker.com/engine/install/ubuntu/) are installed on your machine. You can pull and run the built image by running the following command. 
 ```
 cd docker

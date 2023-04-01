@@ -1,14 +1,23 @@
-# Electron Transfer Rules of Minerals under Pressure informed by Machine Learning
-Authors: Yanzhang Li†, Hongyu Wang†, Yan Li†*, Huan Ye, Yanan Zhang, Rongzhang Yin, Haoning Jia, Bingxu Hou, Hongrui Ding, Anhuai Lu, Xiangzhi Bai\*
+<p>
+ <a href="https://doi.org/10.1038/s41467-023-37384-1">
+     <img alt="Article DOI" src="https://img.shields.io/badge/DOI-doi-organge.svg?style=plastic">
+ </a>
+ <a href="https://doi.org/10.5281/zenodo.7709844">
+     <img alt="Source Code DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.7709844.svg">
+ </a>
+</p>
 
-This repo provides code and data to reproduce the results in the paper for ["Electron Transfer Rules of Minerals under Pressure informed by Machine Learning"]().
+# Electron Transfer Rules of Minerals under Pressure informed by Machine Learning
+Authors: Yanzhang Li†, Hongyu Wang†, Yan Li†\*, Huan Ye, Yanan Zhang, Rongzhang Yin, Haoning Jia, Bingxu Hou, Changqiu Wang, Hongrui Ding, Xiangzhi Bai\*, Anhuai Lu\*
+
+This repo provides code and data to reproduce the results in the paper for ["Electron Transfer Rules of Minerals under Pressure informed by Machine Learning"](https://doi.org/10.1038/s41467-023-37384-1).
 
 ## 1. Introduction
 <div align="center">
   <img src="./resources/introduction.png" width=70% />
 </div>
 
-**Workflow adopted to build deep learning and symbolic models of predicting electronegativity and work function**. Firstly, augmented-descriptor is generated using operation augmentation and symbolic transformer methods. Then, deep learning model Dense Attention Network (DAN) made of densely-connected DA blocks fits the data. Next, a trained DAN model is used to interpolate electronegativity under different pressures and symbolic regression is used to fit explicit analytical expressions for the data of each partition in the periodic table. Finally, deep learning model is utilized to calculate mineral work function, and electronegativity formulization helps interpret electron transfer rules driven by work function difference.
+**Workflow designed to build deep learning and symbolic models for predicting electronegativity and the pressure-modulated relative work function**. Firstly, augmented-descriptor is generated using operation augmentation and symbolic transformer methods. Then, deep learning model Dense Attention Network (DAN) made of densely-connected DA blocks fits the data. Next, a trained DAN model was used to interpolate electronegativity under different pressures and symbolic regression was used to fit explicit analytical expressions for the data of each partition in the periodic table. Finally, deep learning model was utilized to calculate work function of 5828 minerals, and electronegativity formulization helps interpret electron transfer rules driven by work function difference.
 
 <div align="center">
   <img src="./resources/DAN-architecture.png" width=70% />
@@ -119,3 +128,8 @@ The Fitting performances of empirical formulas are shown in the table below.
 
 ## 6. Acknowledgements
 Sincere thanks go to Prof. Xiao Dong and Artem R. Oganov for their pioneering work (doi: 10.1073/pnas.2117416119) that provided the 96 element electronegativity under 4 pressure values (0, 50, 200 and 500 GPa).
+
+## 7. Citation
+If you want to cite the article, please refer to the publication:
+
+Li, Y., Wang, H., Li, Y. et al. Electron transfer rules of minerals under pressure informed by machine learning. Nat Commun 14, 1815 (2023). https://doi.org/10.1038/s41467-023-37384-1
